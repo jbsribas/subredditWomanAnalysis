@@ -17,6 +17,8 @@ This study analyzes online discourse in the *r/womenintech* subreddit to assess 
 
 ├── src/ # Source code for preprocessing, analysis, and modeling
 
+├── requiriment.txt #
+
 └── README.md # Project documentation
 
 ## 🔐 Environment Configuration
