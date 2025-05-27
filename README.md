@@ -17,6 +17,8 @@ This study analyzes online discourse in the *r/womenintech* subreddit to assess 
 
 ├── src/ # Source code for preprocessing, analysis, and modeling
 
+├── table Emotion by Sentiment/ # Example of posts categorized by emotion and sentiment.
+
 ├── requirements.txt # List of libraries and specific versions required to reproduce the project environment
 
 └── README.md # Project documentation
