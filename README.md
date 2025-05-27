@@ -48,9 +48,34 @@ Before running the scripts, make sure to create a `.env` file in the root direct
 ##  💾 Dataset
 The dataset includes Reddit posts from the *r/womenintech* subreddit collected over a one-year period. Personal information has been removed or anonymized where appropriate. Data files are located in the dataset folder.
 
-## 🧪 Methods
 
-  ![Fig.1: Overview of the study phases.](graphics/metologiaOK_v5.png)
+## 🧪 Methodology
+
+The pipeline consists of six main steps for processing and analyzing Reddit data:
+
+![Fig.1: Overview of the study phases.](graphics/metologiaOK_v5.png)
+
+1. **Data Extraction**  
+   Reddit posts are collected using multiple filters (e.g., year, top, hot posts). Datasets are joined, and duplicates are removed.
+
+2. **User Anonymization**  
+   To ensure privacy, user IDs are anonymized using consistent unique identifiers. Previously encountered users are retrieved from saved mappings.
+
+3. **Dataset Construction**  
+   Filtered posts are included based on date range and uniqueness, ensuring relevance and integrity in the dataset.
+
+4. **Data Preprocessing**  
+   Preprocessing involves the removal of stopwords, hyperlinks, numbers, and special characters. Texts are tokenized, concatenated, and lowercased.
+
+5. **RoBERTa-based Classification**  
+   Twitter-optimized RoBERTa models classify the data into categories: **emotion**, **hate speech**, **irony**, **offensiveness**, and **sentiment**.
+
+6. **Data Analysis**  
+   The labeled dataset is analyzed to identify:
+   - Discursive linguistic patterns  
+   - Emotional and sentimental trends  
+   - Temporal shifts in expression
+  
 
 ## 📈 Results
 Visual outputs such as time-series plots and emotion distributions are available in the graphics folder. These figures were used in the paper to illustrate key findings.
