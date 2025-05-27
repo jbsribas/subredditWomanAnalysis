@@ -1,6 +1,6 @@
 # 💬 *Pain in a Safe Space: Temporal Analysis of Discourses in the Womenintech Subreddit*
 
-This repository contains the code, data, and materials used in our study on the temporal dynamics of toxicity and emotional expression in the r/womenintech subreddit over the span of one year.
+This repository contains the code, data, and materials used in our study on the temporal dynamics of toxicity and emotional expression in the *r/womenintech* subreddit over the span of one year.
 
 ---
 
@@ -22,30 +22,21 @@ This study analyzes online discourse in the r/womenintech subreddit to assess pa
 ---
 
 ## ⚙️ How to Reproduce
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/womenintech-analysis.git
-   cd womenintech-analysis
-
-
+  1. 
   2. Install dependencies:
+     
   3. Run the scripts in the following order
-     * src/
-     * src/
-     * src/
-     * src/
+     * src/1_extract_subreddit.ipynb
+     * src/2_anonymization_reddit.ipynb
+     * src/3_label_reddit.ipynb
+     * src/4_analysis_reddit.ipynb
 
 ##  💾 Dataset
-The dataset includes Reddit posts and comments from the r/womenintech subreddit collected over a one-year period. Personal information has been removed or anonymized where appropriate. Data files are located in the dataset/ folder.
+The dataset includes Reddit posts from the *r/womenintech* subreddit collected over a one-year period. Personal information has been removed or anonymized where appropriate. Data files are located in the dataset folder.
 
 ## 🧪 Methods
-* GQM Framework for defining research questions
-* Text classification using transformer-based models for emotional content
-* Toxicity detection based on fine-tuned models and lexicons
-* Temporal analysis to examine fluctuations over time
-* Statistical analysis and visualization using Python libraries (Pandas, Matplotlib, Seaborn)
+
 
 
 ## 📈 Results
-Visual outputs such as time-series plots and emotion distributions are available in the graphics/ folder. These figures were used in the paper to illustrate key findings.
+Visual outputs such as time-series plots and emotion distributions are available in the graphics folder. These figures were used in the paper to illustrate key findings.
