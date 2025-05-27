@@ -17,7 +17,7 @@ This study analyzes online discourse in the *r/womenintech* subreddit to assess 
 
 ├── src/ # Source code for preprocessing, analysis, and modeling
 
-├── requiriment.txt #
+├── requirements.txt # List of libraries and specific versions required to reproduce the project environment
 
 └── README.md # Project documentation
 
@@ -34,7 +34,9 @@ Before running the scripts, make sure to create a `.env` file in the root direct
 
 ## ⚙️ How to Reproduce
   1. Install dependencies:
-     
+     ```
+     pip install -r requirements.txt.
+     ```
   3. Run the scripts in the following order
      * src/1_extract_subreddit.ipynb
      * src/2_anonymization_reddit.ipynb
