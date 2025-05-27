@@ -1,4 +1,4 @@
-# 🧵 *Pain in a Safe Space: Temporal Analysis of Discourses in the Womenintech Subreddit*
+# 💬 *Pain in a Safe Space: Temporal Analysis of Discourses in the Womenintech Subreddit*
 
 This repository contains the code, data, and materials used in our study on the temporal dynamics of toxicity and emotional expression in the r/womenintech subreddit over the span of one year.
 
@@ -33,7 +33,7 @@ This study analyzes online discourse in the r/womenintech subreddit to assess pa
      * src/
      * src/
 
-## Dataset
+##  💾 Dataset
 The dataset includes Reddit posts and comments from the r/womenintech subreddit collected over a one-year period. Personal information has been removed or anonymized where appropriate. Data files are located in the dataset/ folder.
 
 ## 🧪 Methods
