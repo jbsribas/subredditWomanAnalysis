@@ -12,8 +12,11 @@ This study analyzes online discourse in the r/womenintech subreddit to assess pa
 
 ## 🗂️ Repository Structure
 ├── dataset/ # Raw and preprocessed data used in the study
+
 ├── graphics/ # Figures and visualizations generated for the article
+
 ├── src/ # Source code for preprocessing, analysis, and modeling
+
 └── README.md # Project documentation
 
 ---
