@@ -24,7 +24,9 @@ This study analyzes online discourse in the *r/womenintech* subreddit to assess 
 Before running the scripts, make sure to create a `.env` file in the root directory of the project. This file should contain your API credentials and user agent, as shown below:
 
 CLIENT_ID=your_reddit_client_id
+
 CLIENT_SECRET=your_reddit_client_secret
+
 AGENT=your_custom_user_agent
 
 
