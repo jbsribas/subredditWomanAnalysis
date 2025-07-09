@@ -21,6 +21,10 @@ This study analyzes online discourse in the *r/womenintech* subreddit to assess 
 
 ├── requirements.txt # List of libraries and specific versions required to reproduce the project environment
 
+├── env.example # Example of env file
+
+├── LICENSE # MIT
+
 └── README.md # Project documentation
 
 ## 🔐 Environment Configuration
