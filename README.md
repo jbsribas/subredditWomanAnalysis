@@ -1,4 +1,4 @@
-# 💬 **Pain in a Safe Space: Temporal Analysis of Discourses in the Womenintech Subreddit**
+# 💬 **Pain in a Safe Space: Mapping Emotions and Discourse in the Womenintech Community**
 
 This repository contains the code, data, and materials used in our study on the temporal dynamics of toxicity and emotional expression in the *r/womenintech* subreddit over the span of one year.
 
