@@ -90,6 +90,3 @@ The pipeline consists of six main steps for processing and analyzing Reddit data
    - Emotional and sentimental trends  
    - Temporal shifts in expression
   
-
-## 📈 Results
-Visual outputs such as time-series plots and emotion distributions are available in the graphics folder. These figures were used in the paper to illustrate key findings.
