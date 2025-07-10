@@ -1,12 +1,12 @@
 # 💬 **Pain in a Safe Space: Mapping Emotions and Discourse in the Womenintech Community**
 
-This repository contains the code, data, and materials used in our study on the temporal dynamics of toxicity and emotional expression in the *r/womenintech* subreddit over the span of one year.
+This repository contains the code, data, and materials used in our study on patterns of toxicity and emotional expression in the *r/womenintech* subreddit, based on a comprehensive analysis of user-generated posts.
 
 ---
 
 ## 📄 Abstract
 
-This study analyzes online discourse in the *r/womenintech* subreddit to assess patterns of toxicity and emotional expression over time. We employed NLP techniques and the Goal-Question-Metric (GQM) framework to guide our analysis. Our results reveal temporal trends and emotional nuances in discussions within a safe space for women in tech.
+This study analyzes online discourse in the *r/womenintech* subreddit to assess patterns of toxicity and emotional expression. We employed NLP techniques and the Goal-Question-Metric (GQM) framework to guide our analysis. Our results reveal emotional nuances and discursive patterns within a safe space for women in tech.
 
 ---
 
