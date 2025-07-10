@@ -39,15 +39,24 @@ Before running the scripts, make sure to create a `.env` file in the root direct
  * These values are required to access the Reddit API. You can obtain them by registering an application at https://www.reddit.com/prefs/apps.
 
 ## ⚙️ How to Reproduce
-  1. Install dependencies:
-     ```
-     pip install -r requirements.txt.
-     ```
-  3. Run the scripts in the following order
-     * src/1_extract_subreddit.ipynb
-     * src/2_anonymization_reddit.ipynb
-     * src/3_label_reddit.ipynb
-     * src/4_analysis_reddit.ipynb
+
+1. **Install the dependencies:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Prepare the environment:**
+
+   - Make sure to place the `.env` file inside the `src/` directory.  
+   - Run the notebooks using **Jupyter Notebook**, **JupyterLab**, or any compatible IDE (e.g., VSCode with Jupyter extension).
+
+3. **Run the scripts in the following order:**
+
+   - `src/1_extract_subreddit.ipynb`: Extracts data from the target subreddit.
+   - `src/2_anonymization_reddit.ipynb`: Anonymizes usernames and sensitive information.
+   - `src/3_label_reddit.ipynb`: Applies labeling or classification to the dataset.
+   - `src/4_analysis_reddit.ipynb`: Performs analysis and visualization based on the processed data.
 
 ##  💾 Dataset
 The dataset includes Reddit posts from the *r/womenintech* subreddit collected over a one-year period. Personal information has been removed or anonymized where appropriate. Data files are located in the dataset folder.
