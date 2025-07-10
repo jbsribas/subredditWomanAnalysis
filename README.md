@@ -39,6 +39,10 @@ Before running the scripts, make sure to create a `.env` file in the root direct
  * These values are required to access the Reddit API. You can obtain them by registering an application at https://www.reddit.com/prefs/apps.
  * If you have any questions, refer to the `env.example` file for guidance.
 
+⚠️ Important: Your machine must have PyTorch installed with a version that is compatible with your local CUDA setup.
+You can find the appropriate version for your system at: https://pytorch.org/get-started/locally
+
+
 ## ⚙️ How to Reproduce
 
 1. **Install the dependencies:**
