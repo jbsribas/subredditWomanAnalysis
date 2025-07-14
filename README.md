@@ -1,12 +1,12 @@
-# 💬 **Pain in a Safe Space: Temporal Analysis of Discourses in the Womenintech Subreddit**
+# 💬 **Pain in a Safe Space: Mapping Emotions and Discourse in the Womenintech Community**
 
-This repository contains the code, data, and materials used in our study on the temporal dynamics of toxicity and emotional expression in the *r/womenintech* subreddit over the span of one year.
+This repository contains the code, data, and materials used in our study on patterns of toxicity and emotional expression in the *r/womenintech* subreddit, based on a comprehensive analysis of user-generated posts.
 
 ---
 
 ## 📄 Abstract
 
-This study analyzes online discourse in the *r/womenintech* subreddit to assess patterns of toxicity and emotional expression over time. We employed NLP techniques and the Goal-Question-Metric (GQM) framework to guide our analysis. Our results reveal temporal trends and emotional nuances in discussions within a safe space for women in tech.
+This study analyzes online discourse in the *r/womenintech* subreddit to assess patterns of toxicity and emotional expression. We employed NLP techniques and the Goal-Question-Metric (GQM) framework to guide our analysis. Our results reveal emotional nuances and discursive patterns within a safe space for women in tech.
 
 ---
 
@@ -37,17 +37,37 @@ Before running the scripts, make sure to create a `.env` file in the root direct
         AGENT=your_custom_user_agent
 ````
  * These values are required to access the Reddit API. You can obtain them by registering an application at https://www.reddit.com/prefs/apps.
+ * If you have any questions, refer to the `env.example` file for guidance.
+
+
+## 🧩 Requirements
+
+
+⚠️ Important: Your machine must have PyTorch installed with a version that is compatible with your local CUDA setup.
+You can find the appropriate version for your system at: [https://pytorch.org/get-started/locally](https://pytorch.org/get-started/locally)
+
+💡 Note: If you don’t have a local CUDA-compatible setup, you can run this code directly in [Google Colab](https://colab.research.google.com/), which comes with **PyTorch** and **GPU support** pre-installed.
+
 
 ## ⚙️ How to Reproduce
-  1. Install dependencies:
-     ```
-     pip install -r requirements.txt.
-     ```
-  3. Run the scripts in the following order
-     * src/1_extract_subreddit.ipynb
-     * src/2_anonymization_reddit.ipynb
-     * src/3_label_reddit.ipynb
-     * src/4_analysis_reddit.ipynb
+
+1. **Install the dependencies:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Prepare the environment:**
+
+   - Make sure to place the `.env` file inside the `src/` directory.  
+   - Run the notebooks using **Jupyter Notebook**, **JupyterLab**, or any compatible IDE (e.g., VSCode with Jupyter extension).
+
+3. **Run the scripts in the following order:**
+
+   - `src/1_extract_subreddit.ipynb`: Extracts data from the target subreddit.
+   - `src/2_anonymization_reddit.ipynb`: Anonymizes usernames and sensitive information.
+   - `src/3_label_reddit.ipynb`: Applies labeling or classification to the dataset.
+   - `src/4_analysis_reddit.ipynb`: Performs analysis and visualization based on the processed data.
 
 ##  💾 Dataset
 The dataset includes Reddit posts from the *r/womenintech* subreddit collected over a one-year period. Personal information has been removed or anonymized where appropriate. Data files are located in the dataset folder.
@@ -80,6 +100,37 @@ The pipeline consists of six main steps for processing and analyzing Reddit data
    - Emotional and sentimental trends  
    - Temporal shifts in expression
   
+  ## 📝 License
 
-## 📈 Results
-Visual outputs such as time-series plots and emotion distributions are available in the graphics folder. These figures were used in the paper to illustrate key findings.
+  This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
+  Feel free to use, modify, and distribute it as permitted under the terms of this license.
+
+
+  ## 📄 Citation
+
+  If you use this repository or its data, please cite:
+
+ Ribas, J., Carneiro, J., Canuto, T., Azevedo, J., Januario, J., Uchôa, A., & Alves Pereira, J. (2025, julho 14). Pain in a Safe Space: Mapping Emotions and Discourse in the     Womenintech Subreddit. https://doi.org/10.5281/zenodo.15881930
+
+ bibtex
+ ```@misc{ribas2025Discourse,
+  author       = {Ribas, Jessica and
+                  Carneiro, Joanne and
+                  Canuto, Theo and
+                  Azevedo, Júlia and
+                  Januario, Jailma and
+                  Uchôa, Anderson and
+                  Alves Pereira, Juliana},
+  title        = {Pain in a Safe Space: Mapping Emotions and
+                   Discourse in the Womenintech Subreddit
+                  },
+  month        = jul,
+  year         = 2025,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.15881930},
+  url          = {https://doi.org/10.5281/zenodo.15881930},
+}
+```
+  
+
+
