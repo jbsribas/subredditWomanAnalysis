@@ -39,8 +39,14 @@ Before running the scripts, make sure to create a `.env` file in the root direct
  * These values are required to access the Reddit API. You can obtain them by registering an application at https://www.reddit.com/prefs/apps.
  * If you have any questions, refer to the `env.example` file for guidance.
 
+
+## 🧩 Requirements
+
+
 ⚠️ Important: Your machine must have PyTorch installed with a version that is compatible with your local CUDA setup.
-You can find the appropriate version for your system at: https://pytorch.org/get-started/locally
+You can find the appropriate version for your system at: [https://pytorch.org/get-started/locally](https://pytorch.org/get-started/locally)
+
+💡 Note: If you don’t have a local CUDA-compatible setup, you can run this code directly in [Google Colab](https://colab.research.google.com/), which comes with **PyTorch** and **GPU support** pre-installed.
 
 
 ## ⚙️ How to Reproduce
