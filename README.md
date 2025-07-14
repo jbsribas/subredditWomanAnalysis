@@ -99,6 +99,12 @@ The pipeline consists of six main steps for processing and analyzing Reddit data
    - Discursive linguistic patterns  
    - Emotional and sentimental trends  
    - Temporal shifts in expression
+  
+  ## 📝 License
+
+  This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
+  Feel free to use, modify, and distribute it as permitted under the terms of this license.
+
 
   ## 📄 Citation
 
@@ -127,7 +133,4 @@ The pipeline consists of six main steps for processing and analyzing Reddit data
 ```
   
 
-  ## 📝 License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
-Feel free to use, modify, and distribute it as permitted under the terms of this license.
