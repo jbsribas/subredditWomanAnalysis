@@ -100,6 +100,33 @@ The pipeline consists of six main steps for processing and analyzing Reddit data
    - Emotional and sentimental trends  
    - Temporal shifts in expression
 
+  ## 📄 Citation
+
+  If you use this repository or its data, please cite:
+
+ Ribas, J., Carneiro, J., Canuto, T., Azevedo, J., Januario, J., Uchôa, A., & Alves Pereira, J. (2025, julho 14). Pain in a Safe Space: Mapping Emotions and Discourse in the     Womenintech Subreddit. https://doi.org/10.5281/zenodo.15881930
+
+ bibtex
+ ```@misc{ribas2025Discourse,
+  author       = {Ribas, Jessica and
+                  Carneiro, Joanne and
+                  Canuto, Theo and
+                  Azevedo, Júlia and
+                  Januario, Jailma and
+                  Uchôa, Anderson and
+                  Alves Pereira, Juliana},
+  title        = {Pain in a Safe Space: Mapping Emotions and
+                   Discourse in the Womenintech Subreddit
+                  },
+  month        = jul,
+  year         = 2025,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.15881930},
+  url          = {https://doi.org/10.5281/zenodo.15881930},
+}
+```
+  
+
   ## 📝 License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
