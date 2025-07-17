@@ -4,6 +4,7 @@ This repository contains the code, data, and materials used in our study on patt
 
 [![DOI](https://zenodo.org/badge/978184076.svg)](https://doi.org/10.5281/zenodo.15920932)
 
+Access full paper [here](subredditWomanAnalysis.pdf)
 
 ---
 
