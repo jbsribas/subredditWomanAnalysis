@@ -114,7 +114,8 @@ The pipeline consists of six main steps for processing and analyzing Reddit data
 
   If you use this repository or its data, please cite:
 
-Ribas, J., Carneiro, J., Canuto, T., Azevedo, J., Januario, J., Uchôa, A., & Alves Pereira, J. (2025). aisepucrio/subredditWomanAnalysis: subredditWomanAnalysis (V1.0.0). Zenodo. https://doi.org/10.5281/zenodo.15920933
+Ribas, J., Carneiro, J., Canuto, T., Azevedo, J., Januario, J., Uchôa, A., & Alves Pereira, J. (2025).Pain in a Safe Space: Mapping Emotions and
+                   Discourse in the Womenintech Subreddit. In Brazilian Symposium on Software Engineering (SBES) 2025 - IIER Track. September 2025.
 
  bibtex
  ```@misc{ribas2025Discourse,
@@ -129,10 +130,7 @@ Ribas, J., Carneiro, J., Canuto, T., Azevedo, J., Januario, J., Uchôa, A., & Al
                    Discourse in the Womenintech Subreddit
                   },
   year         = 2025,
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.15920933},
-  url          = {https://doi.org/10.5281/zenodo.15920933},
-}
+ 
 ```
 
 
