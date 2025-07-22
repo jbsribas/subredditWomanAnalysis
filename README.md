@@ -2,6 +2,10 @@
 
 This repository contains the code, data, and materials used in our study on patterns of toxicity and emotional expression in the *r/womenintech* subreddit, based on a comprehensive analysis of user-generated posts.
 
+[![DOI](https://zenodo.org/badge/978184076.svg)](https://doi.org/10.5281/zenodo.15920932)
+
+Access full paper [here](subredditWomanAnalysis.pdf)
+
 ---
 
 ## 📄 Abstract
@@ -110,7 +114,8 @@ The pipeline consists of six main steps for processing and analyzing Reddit data
 
   If you use this repository or its data, please cite:
 
- Ribas, J., Carneiro, J., Canuto, T., Azevedo, J., Januario, J., Uchôa, A., & Alves Pereira, J. (2025, julho 14). Pain in a Safe Space: Mapping Emotions and Discourse in the     Womenintech Subreddit. https://doi.org/10.5281/zenodo.15881930
+Ribas, J., Carneiro, J., Canuto, T., Azevedo, J., Januario, J., Uchôa, A., & Alves Pereira, J. (2025).Pain in a Safe Space: Mapping Emotions and
+                   Discourse in the Womenintech Subreddit. In Brazilian Symposium on Software Engineering (SBES) 2025 - IIER Track. September 2025.
 
  bibtex
  ```@misc{ribas2025Discourse,
@@ -124,13 +129,11 @@ The pipeline consists of six main steps for processing and analyzing Reddit data
   title        = {Pain in a Safe Space: Mapping Emotions and
                    Discourse in the Womenintech Subreddit
                   },
-  month        = jul,
   year         = 2025,
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.15881930},
-  url          = {https://doi.org/10.5281/zenodo.15881930},
-}
+ 
 ```
-  
+
+
+
 
 
