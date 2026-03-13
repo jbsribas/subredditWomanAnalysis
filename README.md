@@ -2,9 +2,10 @@
 
 This repository contains the code, data, and materials used in our study on patterns of toxicity and emotional expression in the *r/womenintech* subreddit, based on a comprehensive analysis of user-generated posts.
 
-[![DOI](https://zenodo.org/badge/978184076.svg)](https://doi.org/10.5281/zenodo.15920932)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17054583.svg)](https://doi.org/10.5281/zenodo.17054583)
 
-Access full paper [here](subredditWomanAnalysis.pdf)
+
+Access full paper [here](https://www.researchgate.net/publication/395004979_Pain_in_a_Safe_Space_Mapping_Emotions_and_Discourse_in_the_Womenintech_Subreddit#fullTextFileContent)
 
 ---
 
@@ -22,6 +23,8 @@ This study analyzes online discourse in the *r/womenintech* subreddit to assess 
 ├── src/ # Source code for preprocessing, analysis, and modeling
 
 ├── table Emotion by Sentiment/ # Example of posts categorized by emotion and sentiment.
+
+├── tutorial/ # Tutorials for creating a Reddit developer account and running your project on Google Colab.
 
 ├── requirements.txt # List of libraries and specific versions required to reproduce the project environment
 
@@ -41,8 +44,7 @@ Before running the scripts, make sure to create a `.env` file in the root direct
         AGENT=your_custom_user_agent
 ````
  * These values are required to access the Reddit API. You can obtain them by registering an application at https://www.reddit.com/prefs/apps.
- * If you have any questions about [Reddit account](tutorials/reddit_account.md) or refer to the `env.example` file for guidance.
-
+ * If you have any questions about creating Reddit credentials, see our manual: [Reddit account](tutorials/reddit_account.md)
 
 ## 🧩 Requirements
 
@@ -53,7 +55,7 @@ You can find the appropriate version for your system at: [https://pytorch.org/ge
 💡 Note: If you don’t have a local CUDA-compatible setup, you can run this code directly in [Google Colab](https://colab.research.google.com/), which comes with **PyTorch** and **GPU support** pre-installed.
 
 
-## ⚙️ How to Reproduce
+## ⚙️ How to Reproduce (local)
 
 1. **Install the dependencies:**
 
@@ -72,6 +74,9 @@ You can find the appropriate version for your system at: [https://pytorch.org/ge
    - `src/2_anonymization_reddit.ipynb`: Anonymizes usernames and sensitive information.
    - `src/3_label_reddit.ipynb`: Applies labeling or classification to the dataset.
    - `src/4_analysis_reddit.ipynb`: Performs analysis and visualization based on the processed data.
+
+## ⚙️ How to Reproduce (Google Colab)
+Follow the instructions in this [manual](/tutorials/colab.md). 
 
 ##  💾 Dataset
 The dataset includes Reddit posts from the *r/womenintech* subreddit collected over a one-year period. Personal information has been removed or anonymized where appropriate. Data files are located in the dataset folder.
@@ -129,7 +134,11 @@ Ribas, J., Carneiro, J., Canuto, T., Azevedo, J., Januario, J., Uchôa, A., & Al
   title        = {Pain in a Safe Space: Mapping Emotions and
                    Discourse in the Womenintech Subreddit
                   },
-  year         = 2025,
+howpublished = { Brazilian Symposium on Software Engineering (SBES) 2025 - IIER Track},
+  year         = {2025}
+
+
+}
  
 ```
 
